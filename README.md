@@ -1,7 +1,7 @@
 # Ansible 2.7 Content Organisation
 
 as per https://docs.ansible.com/ansible/latest/user_guide/playbooks_best_practices.html
-<pre>
+```
 ansible-base-layout
 ├── filter_plugins/                 # if any custom filter plugins, put them here (optional)
 ├── group_vars/                     # here we assign variables to particular groups
@@ -48,4 +48,4 @@ ansible-base-layout
         ├── templates/
         ├── tests/
         └── vars/
-</pre>
+```
